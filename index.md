@@ -3,10 +3,10 @@
 Raw and processsed data from this study can be downloaded below. The source code for this study is available [here](https://github.com/ashwini-kr-sharma/Boulant-IL22-INFL)
 
 1. [Raw fastq files](https://www.ncbi.nlm.nih.gov/gds)
-2. Raw counts - [RDS](data/T84_IL22_INFL_filtered_counts.RDS), [csv](data/T84_IL22_INFL_filtered_counts.csv)
-3. [Quality control - MultiQC](data/multiqc_report.html)
+2. Raw counts - [RDS](/data/T84_IL22_INFL_filtered_counts.RDS), [csv](/data/T84_IL22_INFL_filtered_counts.csv)
+3. [Quality control - MultiQC](/data/multiqc_report.html)
 4. Differentially expressed genes - IL22
-  - [IL22 vs Mock (3hr)](data/DGE)
+  - [IL22 vs Mock (3hr)](/data/DGE)
   - [IL22 vs Mock (6hr)]()
   - [IL22 vs Mock (12hr)]()
   - [IL22 vs Mock (24hr)]()
