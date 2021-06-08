@@ -1,0 +1,247 @@
+[2021-03-08 14:27:21,490] multiqc                                            [DEBUG  ]  No MultiQC config found: /icgc/dkfzlsdf/analysis/B080/sharma/miniconda3/envs/hypoxia/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc_config.yaml
+[2021-03-08 14:27:21,490] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/sharmaa/.multiqc_config.yaml
+[2021-03-08 14:27:21,491] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2021-03-08 14:27:21,491] multiqc                                            [DEBUG  ]  Command used: /icgc/dkfzlsdf/analysis/B080/sharma/miniconda3/envs/hypoxia/bin/multiqc --title T84_IL22_IFNL_Data_BoulantLab --outdir /icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/analysis/MultiQC /icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/
+[2021-03-08 14:27:21,491] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2021-03-08 14:27:21,491] multiqc                                            [INFO   ]  This is MultiQC v1.0.dev0
+[2021-03-08 14:27:21,491] multiqc                                            [DEBUG  ]  Command     : /icgc/dkfzlsdf/analysis/B080/sharma/miniconda3/envs/hypoxia/bin/multiqc --title T84_IL22_IFNL_Data_BoulantLab --outdir /icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/analysis/MultiQC /icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/
+[2021-03-08 14:27:21,491] multiqc                                            [DEBUG  ]  Working dir : /icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/src
+[2021-03-08 14:27:21,491] multiqc                                            [INFO   ]  Template    : default
+[2021-03-08 14:27:21,496] multiqc                                            [INFO   ]  Report title: T84_IL22_IFNL_Data_BoulantLab
+[2021-03-08 14:27:21,496] multiqc                                            [INFO   ]  Searching '/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/'
+[2021-03-08 14:27:21,496] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, peddy, methylQA, qualimap, preseq, quast, rseqc, busco, goleft_indexcov, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, bismark, hicup, salmon, kallisto, slamdunk, star, tophat, bowtie2, bowtie1, cutadapt, trimmomatic, skewer, fastq_screen, fastqc, clusterflow
+[2021-03-08 14:27:21,496] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpQNTBwH
+[2021-03-08 14:27:21,845] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-1_S42_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,846] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-3_S17_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,846] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-2_S49_R1_001.bam
+[2021-03-08 14:27:21,846] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-1_S27_R1_001.bam
+[2021-03-08 14:27:21,846] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-3_S20_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,846] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-2_S16_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,846] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-2_S19_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,847] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-3_S8_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,847] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-2_S43_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,847] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-3_S8_R1_001.bam
+[2021-03-08 14:27:21,847] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-1_S12_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,847] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-3_S38_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,847] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-1_S39_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,847] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-1_S33_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,848] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-1_S15_R1_001.bam
+[2021-03-08 14:27:21,848] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-1_S9_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,848] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-2_S28_R1_001.bam
+[2021-03-08 14:27:21,848] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-2_S37_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,848] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-3_S20_R1_001.bam
+[2021-03-08 14:27:21,848] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-2_S19_R1_001.bam
+[2021-03-08 14:27:21,848] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-3_S41_R1_001.bam
+[2021-03-08 14:27:21,848] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-2_S52_R1_001.bam
+[2021-03-08 14:27:21,849] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-3_S53_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,849] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-2_S34_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,849] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-1_S48_R1_001.bam
+[2021-03-08 14:27:21,849] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-1_S30_R1_001.bam
+[2021-03-08 14:27:21,849] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-2_S7_R1_001.bam
+[2021-03-08 14:27:21,849] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-1_S12_R1_001.bam
+[2021-03-08 14:27:21,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-2_S25_R1_001.bam
+[2021-03-08 14:27:21,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-2_S7_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-4_S11_R1_001.bam
+[2021-03-08 14:27:21,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-3_S17_R1_001.bam
+[2021-03-08 14:27:21,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-3_S26_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,850] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-3_S29_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-1_S48_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-2_S37_R1_001.bam
+[2021-03-08 14:27:21,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-3_S44_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-3_S23_R1_001.bam
+[2021-03-08 14:27:21,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-3_S32_R1_001.bam
+[2021-03-08 14:27:21,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-4_S13_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-3_S29_R1_001.bam
+[2021-03-08 14:27:21,851] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-1_S21_R1_001.bam
+[2021-03-08 14:27:21,852] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-2_S46_R1_001.bam
+[2021-03-08 14:27:21,852] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-4_S13_R1_001.bam
+[2021-03-08 14:27:21,852] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-3_S35_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,852] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-3_S26_R1_001.bam
+[2021-03-08 14:27:21,852] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-3_S53_R1_001.bam
+[2021-03-08 14:27:21,853] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-3_S35_R1_001.bam
+[2021-03-08 14:27:21,853] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-1_S36_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,853] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-1_S15_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,853] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-3_S47_R1_001.bam
+[2021-03-08 14:27:21,853] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-2_S25_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,853] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-3_S32_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,853] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-3_S50_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,854] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-1_S51_R1_001.bam
+[2021-03-08 14:27:21,854] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-2_S43_R1_001.bam
+[2021-03-08 14:27:21,854] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-3_S41_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,854] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-1_S45_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,854] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-3_S50_R1_001.bam
+[2021-03-08 14:27:21,854] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-2_S10_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-1_S45_R1_001.bam
+[2021-03-08 14:27:21,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-3_S44_R1_001.bam
+[2021-03-08 14:27:21,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-2_S31_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-2_S40_R1_001.bam
+[2021-03-08 14:27:21,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-6_S14_R1_001.bam
+[2021-03-08 14:27:21,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-1_S18_R1_001.bam
+[2021-03-08 14:27:21,855] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-1_S9_R1_001.bam
+[2021-03-08 14:27:21,856] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-6_S14_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,856] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-1_S42_R1_001.bam
+[2021-03-08 14:27:21,856] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-2_S52_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,856] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-2_S22_R1_001.bam
+[2021-03-08 14:27:21,856] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-1_S36_R1_001.bam
+[2021-03-08 14:27:21,856] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-2_S49_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,857] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-1_S6_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,857] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-2_S28_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,857] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-1_S30_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,857] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-2_S34_R1_001.bam
+[2021-03-08 14:27:21,857] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-2_S16_R1_001.bam
+[2021-03-08 14:27:21,857] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-1_S27_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,857] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-1_S6_R1_001.bam
+[2021-03-08 14:27:21,858] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-3_S38_R1_001.bam
+[2021-03-08 14:27:21,858] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-4_S11_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,858] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-3_S23_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,858] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-1_S33_R1_001.bam
+[2021-03-08 14:27:21,858] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-1_S24_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,858] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-1_S21_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,858] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-2_S46_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,859] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-3_S47_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,859] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-2_S31_R1_001.bam
+[2021-03-08 14:27:21,859] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-1_S39_R1_001.bam
+[2021-03-08 14:27:21,859] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-1_S51_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,859] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-1_S24_R1_001.bam
+[2021-03-08 14:27:21,859] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-2_S40_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,859] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-2_S10_R1_001.bam
+[2021-03-08 14:27:21,860] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-2_S22_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,860] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-1_S18_R1_001.bam.indel.vcf
+[2021-03-08 14:27:21,871] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-1_S45_R2_001.fastq.gz
+[2021-03-08 14:27:21,871] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-1_S45_R1_001.fastq.gz
+[2021-03-08 14:27:21,874] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-3_S50_R2_001.fastq.gz
+[2021-03-08 14:27:21,874] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-3_S50_R1_001.fastq.gz
+[2021-03-08 14:27:21,876] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-1_S51_R1_001.fastq.gz
+[2021-03-08 14:27:21,876] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-1_S51_R2_001.fastq.gz
+[2021-03-08 14:27:21,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-3_S38_R1_001.fastq.gz
+[2021-03-08 14:27:21,879] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-3_S38_R2_001.fastq.gz
+[2021-03-08 14:27:21,882] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-3_S26_R2_001.fastq.gz
+[2021-03-08 14:27:21,882] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-3_S26_R1_001.fastq.gz
+[2021-03-08 14:27:21,885] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-2_S40_R1_001.fastq.gz
+[2021-03-08 14:27:21,886] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-2_S40_R2_001.fastq.gz
+[2021-03-08 14:27:21,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-1_S18_R2_001.fastq.gz
+[2021-03-08 14:27:21,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-1_S18_R1_001.fastq.gz
+[2021-03-08 14:27:21,891] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-1_S21_R1_001.fastq.gz
+[2021-03-08 14:27:21,892] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-1_S21_R2_001.fastq.gz
+[2021-03-08 14:27:21,894] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-1_S15_R1_001.fastq.gz
+[2021-03-08 14:27:21,894] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-1_S15_R2_001.fastq.gz
+[2021-03-08 14:27:21,896] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-3_S47_R1_001.fastq.gz
+[2021-03-08 14:27:21,896] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-3_S47_R2_001.fastq.gz
+[2021-03-08 14:27:21,899] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-3_S44_R2_001.fastq.gz
+[2021-03-08 14:27:21,899] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-3_S44_R1_001.fastq.gz
+[2021-03-08 14:27:21,902] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-3_S41_R1_001.fastq.gz
+[2021-03-08 14:27:21,902] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-3_S41_R2_001.fastq.gz
+[2021-03-08 14:27:21,905] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-2_S49_R2_001.fastq.gz
+[2021-03-08 14:27:21,905] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-2_S49_R1_001.fastq.gz
+[2021-03-08 14:27:21,908] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-2_S19_R2_001.fastq.gz
+[2021-03-08 14:27:21,909] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-2_S19_R1_001.fastq.gz
+[2021-03-08 14:27:21,911] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-1_S39_R2_001.fastq.gz
+[2021-03-08 14:27:21,911] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-24h-1_S39_R1_001.fastq.gz
+[2021-03-08 14:27:21,914] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-4_S13_R2_001.fastq.gz
+[2021-03-08 14:27:21,914] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-4_S13_R1_001.fastq.gz
+[2021-03-08 14:27:21,917] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-1_S42_R1_001.fastq.gz
+[2021-03-08 14:27:21,917] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-1_S42_R2_001.fastq.gz
+[2021-03-08 14:27:21,919] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-3_S53_R1_001.fastq.gz
+[2021-03-08 14:27:21,919] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-3_S53_R2_001.fastq.gz
+[2021-03-08 14:27:21,922] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-2_S34_R2_001.fastq.gz
+[2021-03-08 14:27:21,922] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-2_S34_R1_001.fastq.gz
+[2021-03-08 14:27:21,925] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-1_S6_R1_001.fastq.gz
+[2021-03-08 14:27:21,925] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-1_S6_R2_001.fastq.gz
+[2021-03-08 14:27:21,928] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-1_S33_R1_001.fastq.gz
+[2021-03-08 14:27:21,928] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-1_S33_R2_001.fastq.gz
+[2021-03-08 14:27:21,930] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-2_S46_R2_001.fastq.gz
+[2021-03-08 14:27:21,930] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-6h-2_S46_R1_001.fastq.gz
+[2021-03-08 14:27:21,933] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-1_S9_R2_001.fastq.gz
+[2021-03-08 14:27:21,933] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-1_S9_R1_001.fastq.gz
+[2021-03-08 14:27:21,935] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-2_S31_R2_001.fastq.gz
+[2021-03-08 14:27:21,936] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-2_S31_R1_001.fastq.gz
+[2021-03-08 14:27:21,938] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-2_S22_R2_001.fastq.gz
+[2021-03-08 14:27:21,938] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-2_S22_R1_001.fastq.gz
+[2021-03-08 14:27:21,941] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-2_S7_R1_001.fastq.gz
+[2021-03-08 14:27:21,941] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-2_S7_R2_001.fastq.gz
+[2021-03-08 14:27:21,943] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-1_S12_R1_001.fastq.gz
+[2021-03-08 14:27:21,943] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-1_S12_R2_001.fastq.gz
+[2021-03-08 14:27:21,945] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-1_S36_R2_001.fastq.gz
+[2021-03-08 14:27:21,945] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-1_S36_R1_001.fastq.gz
+[2021-03-08 14:27:21,948] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-3_S20_R2_001.fastq.gz
+[2021-03-08 14:27:21,948] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-3h-3_S20_R1_001.fastq.gz
+[2021-03-08 14:27:21,950] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-1_S24_R2_001.fastq.gz
+[2021-03-08 14:27:21,950] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-1_S24_R1_001.fastq.gz
+[2021-03-08 14:27:21,952] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-2_S16_R1_001.fastq.gz
+[2021-03-08 14:27:21,953] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-2_S16_R2_001.fastq.gz
+[2021-03-08 14:27:21,956] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-3_S29_R1_001.fastq.gz
+[2021-03-08 14:27:21,956] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-3_S29_R2_001.fastq.gz
+[2021-03-08 14:27:21,958] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-3_S35_R1_001.fastq.gz
+[2021-03-08 14:27:21,958] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-6h-3_S35_R2_001.fastq.gz
+[2021-03-08 14:27:21,960] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-3_S17_R2_001.fastq.gz
+[2021-03-08 14:27:21,961] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-24h-3_S17_R1_001.fastq.gz
+[2021-03-08 14:27:21,962] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-3_S32_R1_001.fastq.gz
+[2021-03-08 14:27:21,963] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-3_S32_R2_001.fastq.gz
+[2021-03-08 14:27:21,965] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-3_S23_R1_001.fastq.gz
+[2021-03-08 14:27:21,965] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-6h-3_S23_R2_001.fastq.gz
+[2021-03-08 14:27:21,968] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-2_S28_R1_001.fastq.gz
+[2021-03-08 14:27:21,968] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-2_S28_R2_001.fastq.gz
+[2021-03-08 14:27:21,971] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-2_S25_R2_001.fastq.gz
+[2021-03-08 14:27:21,971] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-12h-2_S25_R1_001.fastq.gz
+[2021-03-08 14:27:21,973] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-6_S14_R2_001.fastq.gz
+[2021-03-08 14:27:21,973] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-12h-6_S14_R1_001.fastq.gz
+[2021-03-08 14:27:21,976] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-3_S8_R2_001.fastq.gz
+[2021-03-08 14:27:21,976] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-3h-3_S8_R1_001.fastq.gz
+[2021-03-08 14:27:21,978] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-2_S52_R1_001.fastq.gz
+[2021-03-08 14:27:21,978] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-24h-2_S52_R2_001.fastq.gz
+[2021-03-08 14:27:21,981] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-2_S43_R2_001.fastq.gz
+[2021-03-08 14:27:21,982] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-3h-2_S43_R1_001.fastq.gz
+[2021-03-08 14:27:21,984] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-1_S27_R1_001.fastq.gz
+[2021-03-08 14:27:21,984] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IFN-L-24h-1_S27_R2_001.fastq.gz
+[2021-03-08 14:27:21,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-4_S11_R1_001.fastq.gz
+[2021-03-08 14:27:21,987] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-4_S11_R2_001.fastq.gz
+[2021-03-08 14:27:21,989] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-1_S30_R2_001.fastq.gz
+[2021-03-08 14:27:21,989] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-3h-1_S30_R1_001.fastq.gz
+[2021-03-08 14:27:21,992] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-2_S37_R1_001.fastq.gz
+[2021-03-08 14:27:21,992] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: IL-22-12h-2_S37_R2_001.fastq.gz
+[2021-03-08 14:27:21,994] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-2_S10_R1_001.fastq.gz
+[2021-03-08 14:27:21,994] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Mock-6h-2_S10_R2_001.fastq.gz
+[2021-03-08 14:27:21,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-1_S48_R2_001.fastq.gz
+[2021-03-08 14:27:21,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 22L-12h-1_S48_R1_001.fastq.gz
+[2021-03-08 14:27:32,763] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2021-03-08 14:27:32,958] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:33,070] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:33,157] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2021-03-08 14:27:33,364] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:49,135] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:49,213] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:51,537] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:51,608] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:51,704] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:52,226] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:52,760] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:53,273] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:53,779] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:53,900] multiqc.modules.featureCounts.feature_counts       [INFO   ]  Found 48 reports
+[2021-03-08 14:27:58,635] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:58,730] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:27:59,222] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:00,705] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:01,231] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:01,399] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:01,462] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:01,572] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:02,133] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:04,727] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2021-03-08 14:28:04,820] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:04,885] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:05,358] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:05,854] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:06,341] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:06,839] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:07,338] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:07,424] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:28:57,167] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 96 reports
+[2021-03-08 14:29:00,262] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/',)
+[2021-03-08 14:29:00,271] multiqc                                            [INFO   ]  Report      : ../analysis/MultiQC/multiqc_report.html
+[2021-03-08 14:29:00,290] multiqc                                            [INFO   ]  Data        : ../analysis/MultiQC/multiqc_data
+[2021-03-08 14:29:00,290] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpQNTBwH/multiqc_data/multiqc_fastqc.txt' to '/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/analysis/MultiQC/multiqc_data'
+[2021-03-08 14:29:00,299] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpQNTBwH/multiqc_data/multiqc_general_stats.txt' to '/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/analysis/MultiQC/multiqc_data'
+[2021-03-08 14:29:00,306] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpQNTBwH/multiqc_data/multiqc_featureCounts.txt' to '/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/analysis/MultiQC/multiqc_data'
+[2021-03-08 14:29:00,313] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpQNTBwH/multiqc_data/multiqc_sources.txt' to '/icgc/dkfzlsdf/analysis/B080/sharma/boulantLab/T84_IL22_IFNL/analysis/MultiQC/multiqc_data'
+[2021-03-08 14:29:01,728] multiqc                                            [INFO   ]  MultiQC complete
