@@ -1,7 +1,7 @@
 ## T84 cell treated with IL22 and IFNL
 
 - This repository hosts the souce code used to analyze the data from the paper - [XXX]()
-- The companion website for this paper is hosted [here](https://ashwini-kr-sharma.github.io/Boulant-IL22-INFL/)
+- The companion website for this paper is hosted [here](https://ashwini-kr-sharma.github.io/T84-IL22-IFNL/)
 
 ### Scripts
 All scripts are located in `/src/` directory
