@@ -2,13 +2,13 @@
 
 ### Experimental design
 
-T84 cells were treated with the cytokines, type III interferon lambda (IFN-L), interleukin 22 (IL22) and in combination at time points - 3h, 6h, 12h and 24h. Each time point and treatment were replicated three times. RNA sequencing was performed in a total of 48 samples consiting of untreated and treated samples.
+T84 cells were treated with the cytokines, type III interferon lambda (IFN-L), interleukin 22 (IL22) and in combination at time points - 3h, 6h, 12h and 24h. Each time point and treatment were replicated three times. RNA sequencing was performed in a total of 48 samples consisting of untreated and treated samples.
 
 ![experimental design](/IL22_IFNL_Expdesign.png)
 
 ### Methodology
 
-Raw RNA sequencing reads (fastq) were aligned to the ensembl human GRCh38 genome reference using [Rsubread(2.2.6)](https://doi.org/10.1093/nar/gkz114) with default settings. Read summariztion was done using [featureCounts](https://doi.org/10.1093/bioinformatics/btt656). Various quality metrics of the the raw reads and alignment statistics were analysed using [MultiQC](https://doi.org/10.1093/bioinformatics/btw354). Differential gene expression analysis was performed uing DSeq2, rlog transformed data was used for multi dimensional scaling and clustering analyses. Signalling programs were quantified using [PROGENy(1.10.0)](https://doi.org/10.1038/s41467-017-02391-6). Transcription factor activities were computed using [DoRothEA(1.0.1)](https://doi.org/10.1101/gr.240663.118) and [VIPER](https://doi.org/10.1038/ng.3593). Enrichment analysis on the most differentially expressed genes (-1< logFC >+1 and adjusted p value < 0.05) was performed using [enrichR(3.0)](https://doi.org/10.1093/nar/gkw377).
+Raw RNA sequencing reads (fastq) were aligned to the ensembl human GRCh38 genome reference using [Rsubread](https://doi.org/10.1093/nar/gkz114) with default settings. Read summariztion was done using [featureCounts](https://doi.org/10.1093/bioinformatics/btt656). Various quality metrics of the the raw reads and alignment statistics were analysed using [MultiQC](https://doi.org/10.1093/bioinformatics/btw354). Differential gene expression analysis was performed uing DSeq2, rlog transformed data was used for multi dimensional scaling and clustering analyses. Signalling programs were quantified using [PROGENy](https://doi.org/10.1038/s41467-017-02391-6). Transcription factor activities were computed using [DoRothEA](https://doi.org/10.1101/gr.240663.118) and [VIPER](https://doi.org/10.1038/ng.3593). Enrichment analysis on the most differentially expressed genes (-1< logFC >+1 and adjusted p value < 0.05) was performed using [enrichR](https://doi.org/10.1093/nar/gkw377).
 
 ### Data download
 Raw and processsed data from this study can be downloaded below. The source code for this study is available [here](https://github.com/ashwini-kr-sharma/Boulant-IL22-IFNL)
