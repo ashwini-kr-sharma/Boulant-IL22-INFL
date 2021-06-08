@@ -1,7 +1,14 @@
 ## T84 cells treated with IFNL and IL22
 
 ### Experimental design
+
+T84 cells were treated with the cytokines, type III interferon lambda (IFN-L), interleukin 22 (IL22) and in combination at time points - 3h, 6h, 12h and 24h. Each time point and treatment were replicated three times. RNA sequencing was performed in a total of 48 samples consiting of untreated and treated samples.
+
 ![experimental design](/IL22_IFNL_Expdesign.png)
+
+### Methodology
+
+Raw RNA sequencing reads (fastq) were aligned to the ensembl human GRCh38 genome reference using Rsubread with default settings. Read summariztion was done using FeatureCounts. MultiQC was used to asses various quality metrics of the the raw reads and alignment statistics. Differential gene expression analysis was performed uing DSeq2, rlog transformed data was used for multi dimensional scaling and clustering analyses. Signalling programs were quantified using PROGENy. Transcription factor activities were computed using DoRothEA and VIPER. Enrichment analysis on the most differentially expressed genes (-1< logFC >+1 and adjusted p value < 0.05) was performed using EnrichR.
 
 ### Data download
 Raw and processsed data from this study can be downloaded below. The source code for this study is available [here](https://github.com/ashwini-kr-sharma/Boulant-IL22-IFNL)
