@@ -26,6 +26,6 @@ Raw and processsed data from this study can be downloaded below. The source code
   - [IL22 + INFL vs Mock (6hr)](/src/07_DSeq2_Rmarkdown/IL22_IFNL_6hr_vs_Mock_6hr.html)
   - [IL22 + INFL vs Mock (12hr)](/src/07_DSeq2_Rmarkdown/IL22_IFNL_12hr_vs_Mock_12hr.html)
   - [IL22 + INFL vs Mock (24hr)](/src/07_DSeq2_Rmarkdown/IL22_IFNL_24hr_vs_Mock_24hr.html)
-- [log2 fold changes](/data/DGE/log2_fold_change.html) [(RDS)](/data/diffExpLogFCmatrix.RDS)
+- [log2 fold changes](/src/07_DSeq2_Rmarkdown/log2_fold_change.html) [(RDS)](/data/diffExpLogFCmatrix.RDS)
 - [Signalling programs](/data/progeny_all_results.csv)
 - [Transcription factor activities](data/tfactivity_all_results.csv)
