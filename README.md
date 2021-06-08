@@ -1,6 +1,8 @@
 ## T84 cell treated with IL22 and IFNL
 
-### Graphical abstract
+### Experimental design
+
+![experimental design](/IL22_IFNL_Expdesign.png)
 
 ### Methodology
 - This repository hosts the souce code used to analyze the data from the paper - [XXX]()
