@@ -1,10 +1,10 @@
-## T84 cells treated with INFL and IL22
+## T84 cells treated with IFNL and IL22
 
 ### Experimental design
 ![experimental design](/IL22_IFNL_Expdesign.png)
 
 ### Data download
-Raw and processsed data from this study can be downloaded below. The source code for this study is available [here](https://github.com/ashwini-kr-sharma/Boulant-IL22-INFL)
+Raw and processsed data from this study can be downloaded below. The source code for this study is available [here](https://github.com/ashwini-kr-sharma/Boulant-IL22-IFNL)
 
 - [Raw fastq files](https://www.ncbi.nlm.nih.gov/gds)
 - Raw counts - [RDS](/data/T84_IL22_INFL_filtered_counts.RDS), [csv](/data/T84_IL22_INFL_filtered_counts.csv)
