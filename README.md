@@ -1,6 +1,6 @@
 ## T84 cell treated with IL22 and IFNL
 
-- This repository hosts the source code used to analyze the data from the paper - [IL-22 promotes cell proliferation to combat virus infection in human intestinal epithelial cells]()
+- This repository hosts the source code used to analyze the transcriptomic profiling data (RNAseq) from the paper - [IL-22 promotes cell proliferation to combat virus infection in human intestinal epithelial cells]()
 - The companion website for this paper is hosted [here](https://ashwini-kr-sharma.github.io/T84-IL22-IFNL/)
 
 ### Scripts
